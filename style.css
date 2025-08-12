@@ -1,0 +1,140 @@
+
+.border-footer{
+  border-color: #626466 !important;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+li,a{
+  color: #edf0f1;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+.nav_links{
+  list-style: none;
+}
+.nav_links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a{
+  transition: all 0.3ms ease 0s;
+}
+.nav_links li a:hover{
+  color: #adb5bd;
+}
+
+ .modal-margen {
+    padding: 1.5rem; /* Espaciado interno */
+    border-radius: 1rem; /* Esquinas más redondeadas */
+  }
+
+/* Contenedor centrado y tamaño */
+.carousel-container {
+  width: 80%;
+  /* ancho de la pantalla */
+  margin: 0 auto;
+  /* Centra horizontalmente */
+}
+
+/* Imágenes adaptadas */
+.carousel-item img {
+  width: 100%;
+  /* Ocupar todo el ancho del carrusel */
+  height: auto;
+  /* Mantener proporción */
+  object-fit: cover;
+  /* Evitar deformaciones */
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* Fondo oscuro translúcido */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.carousel-caption h5, 
+.carousel-caption p {
+  color: #fff; /* Texto blanco */
+}
+
+.fondo_guitarras {
+  background-image: url(https://media.istockphoto.com/id/1145602814/es/foto/textura-de-madera-natural.jpg?s=612x612&w=0&k=20&c=Emkpmlr0Dm47jouaW4x8f6dInYMDzqkUmIwXewFx2Ks=);
+
+}
+
+.madera_oscura {
+  background-image: url(https://64.media.tumblr.com/3ce3bdc57d9ee14ad9578e3de4d1f29d/90ea133775f7c060-d3/s2048x3072/9319126d7901b0f21308f5bb20034258c2e92844.jpg);
+}
+
+.fondo_bajos {
+  background-image: url(https://64.media.tumblr.com/3ce3bdc57d9ee14ad9578e3de4d1f29d/90ea133775f7c060-d3/s2048x3072/9319126d7901b0f21308f5bb20034258c2e92844.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Para que la imagen cubra todo */
+  background-position: center;
+  /* Centrar la imagen */
+  min-height: 100vh;
+  /* Ocupar toda la altura visible */
+  width: 50%;
+  display: flex;
+  /* Permite centrar el carrusel si quieres */
+  align-items: center;
+  /* Centra verticalmente */
+}
+
+
+.border-cafe {
+  border-color: #7a553b !important;
+}
+
+.logo {
+  margin-left: 10%;
+  padding-right: 15%;
+}
+
+/* Hace que la página use todo el alto disponible */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Sección principal debajo del navbar */
+.hero-section {
+  height: 100vh;
+  margin-top: 56px;
+  /* Altura del navbar para evitar solapamiento */
+  border: none;
+}
+
+/* Contenedor de imagen */
+.card-img-container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Imagen que se ajusta y recorta sin deformarse */
+.card-img-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Texto centrado encima de la imagen */
+.card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
